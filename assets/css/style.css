@@ -1,11 +1,13 @@
 #Name{
-    margin: auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 0;
     border-bottom: 5px solid #cccccc;
     overflow: hidden;
     background: teal;
     color: white;
     font-size: 50px;
+    width: 100%;
+
 }
 li {
     float: right;
@@ -67,11 +69,12 @@ font-size: 40px}
 #footer {
     background: teal;
     padding: 20px;
-    margin-bottom: auto;
+    margin-bottom: 0 auto;
     font-size: 20px;
     margin-bottom: 20px;
     width: auto;
     color: whitesmoke;
+
 }
 
 p {
@@ -80,61 +83,6 @@ p {
     margin: 20px;
     padding: 20px;
     border: 20px;
-}
-
-#main content {
-    border: 20%;
-    padding: 40%;
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    background: white;
-    
-} 
-
-.Firstbox {
-    padding: 40px;
-    margin: 60px;
-background: grey;
-    width: 175px;
-    height: 175px;
-    float :left;} 
-
-.Sndbox {
-    padding: 40px;
-    margin: 60px;
-    background: black;
-    width: 175px;
-    height: 175px;
-    float :left;
-    
-}
-
-.Trdbox {
-    padding: 40px;
-    margin: 60px;
-    background: yellow;
-    width: 175px;
-    height: 175px;
-    float :left;
-}
-
-.Fthbox {
-    padding: 40px;
-    margin: 60px;
-    background: hotpink;
-    width: 175px;
-    height: 175px;
-    float :left;
-
-}
-.Fithbox {
-    padding: 40px;
-    margin: 60px;
-    background:green;
-    width: 175px;
-    height: 175px;
-    float :left;
 }
 
 .form {
@@ -155,3 +103,40 @@ font-size: 25px;}
     border: 20px;
     padding: 20px;
 }
+
+.cat {
+   display: inline;
+}
+
+.dj {
+    display: inline;
+}
+
+.earphones {
+    display: inline;
+}
+
+.Ipad {
+    display: inline;
+}
+.phoneontable {
+    display: inline;
+}
+
+@media screen and (max-width: 980px) {
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }}
+
+@media screen and ( max-width: 768px) {
+    #container {
+        width: 70%;
+        margin: 0 auto;
+    }}
+
+@media screen and ( max-width: 640px) {
+    #container {
+        width: 30%;
+        margin: 0 auto;
+    }}
